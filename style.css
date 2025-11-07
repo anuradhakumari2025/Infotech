@@ -46,16 +46,7 @@ nav {
   height: 53.63px;
   width: 53.94;
 }
-.logo-name p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 10px;
-}
-.logo-name h3 {
-  font-size: 24px;
-  letter-spacing: -1px;
-  font-weight: 500;
-}
+
 
 .nav-links {
   display: flex;
@@ -160,6 +151,7 @@ button.solid {
   height: 100%;
   justify-content: center;
   align-items: flex-end;
+  /* border: 1px solid red; */
 }
 .large-eclipse-img {
   position: absolute;
@@ -176,45 +168,16 @@ button.solid {
 .student-img {
   width: 100%;
   z-index: 2;
-  width: 506px;
   height: 727px;
 }
 .student-img img {
-  width: 506px;
-  height: 727px;
+  height: 100%;
   object-fit: cover;
 }
 
-.badge-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  right: 0;
-  bottom: 18px;
-  background: #fff;
-  padding: 30px 30px;
-  box-shadow: 0px 6px 24px 0px rgba(36, 38, 52, 0.11);
-  gap: 20px;
-  z-index: 3;
-  border-radius: 10px;
-}
-.badge-icon {
-  width: 80px;
-  height: 80px;
-}
-.badge-icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.badge-text {
-  display: flex;
-  flex-direction: column;
-  font-family: "Figtree", Arial, sans-serif;
-  width: 124px;
-  justify-content: flex-start;
-}
+
+
+
 .badge-number {
   font-size: 30px;
   font-weight: bolder;
@@ -224,39 +187,6 @@ button.solid {
   color: #666;
   font-size: 17px;
   font-weight: normal;
-}
-
-.rating-box {
-  position: absolute;
-  left: 0px;
-  top: 55%;
-  padding: 20px 15px;
-  background: rgba(255, 255, 255, 0.79);
-  border-radius: 10px;
-  backdrop-filter: blur(8px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  z-index: 3;
-}
-.rating-value {
-  font-size: 64px;
-  color: #1cb098;
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 600;
-}
-.rating-details {
-  display: flex;
-  gap: 11px;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.rating-label {
-  font-size: 24px;
-  color: #000000;
-  font-weight: 600;
 }
 
 .get-section {
@@ -294,7 +224,6 @@ button.solid {
   font-size: 44px;
   font-family: "Figtree", Arial, sans-serif;
   font-weight: 600;
-  /* margin: 0 0 44px 0; */
   line-height: 55px;
   color: #191919;
 }
@@ -368,14 +297,7 @@ button.solid {
     height: 34px;
   }
   .logo img {
-    width: 38px;
     height: 34px;
-  }
-  .logo-name h3 {
-    font-size: 20px;
-  }
-  .logo-name p {
-    font-size: 13px;
   }
   .menu {
     display: block;
@@ -481,12 +403,9 @@ button.solid {
     gap: 24px;
   }
   .student-img {
-    width: 319px;
     height: 366px;
   }
   .student-img img {
-    width: 254px;
-    height: 365px;
     object-fit: cover;
   }
   .large-eclipse-img {
@@ -527,26 +446,7 @@ button.solid {
   .hero-right {
     width: 100%;
   }
-  .rating-box {
-    gap: 8px;
-    padding: 5px 15px;
-  }
-  .rating-value {
-    font-size: 22px;
-  }
-  .rating-label {
-    font-size: 14px;
-  }
-  .badge-icon {
-    width: 36px;
-    height: 36px;
-  }
-  .badge-box {
-    padding: 15px 16px;
-  }
-  .badge-text {
-    width: 78px;
-  }
+ 
   .badge-number {
     font-size: 18px;
   }
